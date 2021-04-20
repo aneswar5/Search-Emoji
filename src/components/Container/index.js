@@ -13,7 +13,7 @@ function Container() {
   useEffect(() => {
     setEmojiData(data);
   }, [])
-  const onChange = val => {
+  const onChange = (val) => {
     setSearchQuery(val.toLowerCase());
 
     let queryKeywords = val.toLowerCase().trim().split(" ");

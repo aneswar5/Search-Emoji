@@ -4,7 +4,7 @@ import './style.css'
 function Emoji(props) {
   const [fadeIn, setFadeIn] = useState(false);
 
-  const handleClick = e => {
+  const handleClick = (e) => {
     setFadeIn(true)
     setTimeout(() => setFadeIn(false), 900)
   }

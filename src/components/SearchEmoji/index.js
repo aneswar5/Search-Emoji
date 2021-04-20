@@ -1,7 +1,7 @@
 import './style.css'
 
 function SearchEmoji(props) {
-  const onChange = e => {
+  const onChange = (e) => {
     props.onChange(e.target.value)
   }
   return (
