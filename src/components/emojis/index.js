@@ -13,7 +13,6 @@ function Emoji(props) {
     <div
       key={props.id}
       className="item"
-      // title="Copy Emoji to Clipboard"
       onClick={handleClick}
       data-clipboard-text={props.symbol}
       data-keywords={props.keywords}
