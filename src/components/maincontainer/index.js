@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Header from '../header/index'
+import Header from '../header'
 import Search from '../searchEmoji/index'
 import Results from '../result/index'
 import data from '../../json/data.json'
