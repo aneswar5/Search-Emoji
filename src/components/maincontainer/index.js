@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import Header from '../Header'
-import Search from '../SearchEmoji'
-import Results from '../Result'
+import Header from '../header'
+import Search from '../searchEmoji'
+import Results from '../result'
 import data from '../../json/data.json'
 import './style.css'
 

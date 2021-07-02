@@ -8,7 +8,7 @@ function SearchEmoji(props) {
     <input
       className="search"
       type="text"
-      placeholder="Search for a keyword..."
+      placeholder="Search for a Emoji..."
       onChange={onChange}
     />
   )
