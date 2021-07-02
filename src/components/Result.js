@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Item from '../Emojis';
+import Item from './Emojis';
 import Clipboard from "clipboard";
 import { v4 as uuid } from 'uuid';
-import './style.css'
+import './Result.css';
 
 function Result(props) {
   useEffect(() => {

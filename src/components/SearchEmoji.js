@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './SearchEmoji.css'
 
 function SearchEmoji(props) {
   const onChange = (e) => {

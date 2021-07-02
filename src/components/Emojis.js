@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-import './style.css'
+import './emojis.css'
 
 function Emojis(props) {
   const [fadeIn, setFadeIn] = useState(false);

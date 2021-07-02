@@ -1,9 +1,9 @@
 import React,{ useState, useEffect } from 'react';
-import Header from '../Header'
-import Search from '../SearchEmoji';
-import Results from '../Result'
-import data from '../../json/data.json'
-import './style.css'
+import Header from './Header'
+import Search from './SearchEmoji';
+import Results from './Result';
+import data from './json/data.json';
+import './Merage.css';
 
 function Merage() {
   const [emojiData, setEmojiData] = useState([]);
