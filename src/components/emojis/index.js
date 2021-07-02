@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import './style.css'
 
-function Emoji(props) {
+function Emojis(props) {
   const [fadeIn, setFadeIn] = useState(false);
 
   const handleClick = (e) => {
@@ -25,4 +25,4 @@ function Emoji(props) {
   )
 }
 
-export default Emoji;
+export default Emojis;
